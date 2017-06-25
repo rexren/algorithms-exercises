@@ -7,6 +7,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>algorithm-book-exercises</name>
 
+    <description>Test</description>
+
     <build>
         <plugins>
             <plugin>
