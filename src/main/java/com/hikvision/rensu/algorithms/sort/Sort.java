@@ -9,4 +9,6 @@ public interface Sort {
     void exch(Comparable[] a, int p, int q);
 
     boolean isSorted(Comparable[] a);
+
+    public void display(Comparable[] a);
 }
