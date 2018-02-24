@@ -11,4 +11,5 @@ public interface Sort {
     boolean isSorted(Comparable[] a);
 
     public void display(Comparable[] a);
+
 }

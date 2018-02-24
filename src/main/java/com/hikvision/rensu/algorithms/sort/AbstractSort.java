@@ -1,6 +1,6 @@
 package com.hikvision.rensu.algorithms.sort;
 
-public abstract class AbstractSort implements Sort{
+public abstract class AbstractSort implements Sort {
     @Override
     public boolean less(Comparable p, Comparable q) {
         return p.compareTo(q) < 0;
@@ -24,9 +24,9 @@ public abstract class AbstractSort implements Sort{
     }
 
     @Override
-    public void display(Comparable[] a){
+    public void display(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i] + " ");
+            System.out.println(a[i]);
         }
     }
 }
