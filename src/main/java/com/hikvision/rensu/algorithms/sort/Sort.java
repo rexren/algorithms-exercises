@@ -10,6 +10,6 @@ public interface Sort {
 
     boolean isSorted(Comparable[] a);
 
-    public void display(Comparable[] a);
+    void display(Comparable[] a);
 
 }
