@@ -37,8 +37,10 @@ public class MergeSort extends AbstractSort {
         //这里的循环还可以优化，如果一半已经排序完成，那么可以缩短
         for (int k = lo; k <= hi; k++) {
             if (i > mid) {
+                //i已经达到了中位，后续的排序完全以右半边为主
                 a[k] = aux[j++];
             } else if (j > hi) {
+                //右半边已经排序完，排序左半边
                 a[k] = aux[i++];
             } else if (less(aux[i], aux[j])) {
                 a[k] = aux[i++];
