@@ -43,7 +43,7 @@ public class Strstr {
     @Test
     public void test1() {
         String haystack = "hello", needle = "ll";
-        Assert.assertEquals(2, new Strstr().strStr(haystack, needle));
+        Assert.assertEquals(2, strStr(haystack, needle));
     }
 
     @Test
